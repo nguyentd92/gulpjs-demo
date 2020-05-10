@@ -44,7 +44,7 @@ function htmlTask() {
 /** Assets Task */
 
 function assetsTask() {
-    return src('assets/**/*')
+    return src('assets/**')
         .pipe(dest('dist/assets'))
 
 }
